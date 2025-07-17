@@ -11,8 +11,7 @@ function Componente()
     const elemento = document.createElement('div');
 
     //lodash
-    elemento.innerHTML = _.join(['HOLA un webpack!', 'Webpack'], ' ');
-    //elemento.innerHTML = 'Hola' + 'Webpack normal';
+    elemento.innerHTML = _.join(['HOLA', 'Webpack'], ' ');
     elemento.classList.add('hola');
     
     const miImagen = new Image();
